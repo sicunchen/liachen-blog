@@ -25,12 +25,10 @@ export const Page: React.FC<PageProps> = ({
     ? onlyText(description)
     : siteConfig.siteDescription;
   const metaThumbnail = thumbnail ? thumbnail : siteConfig.siteThumbnail;
-  // fixed https://github.com/vercel/next.js/discussions/38256
-  const customTitle = `${metaTitle} - ${siteConfig.siteName}`;
   return (
     <>
       <Head>
-        <title>{customTitle}</title>
+        <title>{siteConfig.siteName}</title>
         <meta name="og:url" content={siteConfig.siteUrl} />
         <meta property="og:title" content={metaTitle} />
         <meta name="description" content={metaDescription} />

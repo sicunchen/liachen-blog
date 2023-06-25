@@ -7,32 +7,11 @@ const About: NextPage = () => {
     <>
       <Page
         title="About"
-        description="This is a brief description about the about page."
+        description=""
       >
         <Prose>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sed
-            aliquam tempora nihil magni natus mollitia. Doloribus,
-            exercitationem iusto odio asperiores dolor, alias excepturi maxime
-            distinctio quod eum saepe eos!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sed
-            aliquam tempora nihil magni natus mollitia. Doloribus,
-            exercitationem iusto odio asperiores dolor, alias excepturi maxime
-            distinctio quod eum saepe eos!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sed
-            aliquam tempora nihil magni natus mollitia. Doloribus,
-            exercitationem iusto odio asperiores dolor, alias excepturi maxime
-            distinctio quod eum saepe eos!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sed
-            aliquam tempora nihil magni natus mollitia. Doloribus,
-            exercitationem iusto odio asperiores dolor, alias excepturi maxime
-            distinctio quod eum saepe eos!
+            Hi! I'm a front end developer working at the University of Michigan. I enjoy building delightful web interfaces and learning about web technologies. Here you can read about my learning journey and occasional film/music reviews.
           </p>
         </Prose>
       </Page>

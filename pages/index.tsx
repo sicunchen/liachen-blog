@@ -14,18 +14,7 @@ const Home: NextPage<HomeProps> = ({ posts }) => {
   return (
     <>
       <Page
-        title="Next.js MDX Blog Theme"
-        description={
-          <>
-            <p>
-              View the source code on{" "}
-              <a href="https://github.com/alexcarpenter/nextjs-mdx-blog-theme">
-                Github
-              </a>
-              .
-            </p>
-          </>
-        }
+        title="Lia Chen's Blog"
       >
         <PostList posts={posts} />
         <div className="mt-8">
