@@ -11,7 +11,7 @@ const About: NextPage = () => {
       >
         <Prose>
           <p>
-            Hi! I'm a front end developer working at the University of Michigan. I enjoy building delightful web interfaces and learning about web technologies. Here you can read about my learning journey and occasional film/music reviews.
+            Hi! I&apos;m a front end developer working at the University of Michigan. I enjoy building delightful web interfaces and learning about web technologies. Here you can read about my learning journey and occasional film/music reviews.
           </p>
         </Prose>
       </Page>
