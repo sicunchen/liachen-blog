@@ -4,7 +4,7 @@ const siteConfig: SiteConfig = {
   siteUrl: "https://nextjs-mdx-blog-theme.vercel.app",
   siteName: "Lia Chen",
   siteDescription:
-    "Lia Chen software development writing",
+    "Lia Chen writing",
   siteThumbnail: "/og-image.png",
   nav: [
     { label: "Posts", href: "/posts" },
