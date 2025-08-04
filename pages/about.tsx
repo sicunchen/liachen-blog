@@ -5,14 +5,9 @@ import { Prose } from "@/components/Prose";
 const About: NextPage = () => {
   return (
     <>
-      <Page
-        title="About"
-        description=""
-      >
+      <Page title="About" description="">
         <Prose>
-          <p>
-            Hi! I&apos;m Lia and welcome to my blog. Here I scribble down my thoughts about...anything.
-          </p>
+          <p>Ramblings about technical stuff.</p>
         </Prose>
       </Page>
     </>
